@@ -19,9 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f9df3e9-d0a5-4dea-804a-13e0e2b7a54e" name="Default Changelist" comment="Hoofdstuk 1 javascript af">
-      <change afterPath="$PROJECT_DIR$/Hoofdstuk1/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hoofdstuk1/index.html" afterDir="false" />
+    <list default="true" id="6f9df3e9-d0a5-4dea-804a-13e0e2b7a54e" name="Default Changelist" comment="added a index">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +73,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604836587255</updated>
-      <workItem from="1604836599337" duration="2453000" />
+      <workItem from="1604836599337" duration="3141000" />
     </task>
     <task id="LOCAL-00001" summary="Hoofdstuk 1 javascript af">
       <created>1604838454695</created>
@@ -95,7 +96,21 @@
       <option name="project" value="LOCAL" />
       <updated>1604838884404</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Hoofdstuk 1 javascript af">
+      <created>1604839078015</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604839078015</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added a index">
+      <created>1604839118469</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1604839118469</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,16 +129,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Hoofdstuk 1 javascript af" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hoofdstuk 1 javascript af" />
+    <MESSAGE value="added a index" />
+    <option name="LAST_COMMIT_MESSAGE" value="added a index" />
   </component>
   <component name="WindowStateProjectService">
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604838228742">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604838228742" />
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1604838885255">
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1604839120159">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604838885255" />
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604839120159" />
   </component>
 </project>
