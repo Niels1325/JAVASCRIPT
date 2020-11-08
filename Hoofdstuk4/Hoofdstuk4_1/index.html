@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mijn Auto</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+    <h1>NeLLo's Javascript H1.1</h1>
+    <center><a href="https://niels1325-javascript.netlify.app/">BACK</a></center>
+</div>
+
+    <script>
+        var mijnauto = {
+            kleur: "blauw",
+            merk: "Ford" ,
+            snelheid: 0,
+
+            gasgeven: function () {
+                this.snelheid += 5
+                    console.log(this.snelheid)
+            },
+
+            toeteren: function () {
+                console.log("toet! *MEEP MEEP*");
+            }
+        }
+        console.log(mijnauto.kleur);
+        mijnauto.gasgeven();
+        mijnauto.gasgeven();
+        mijnauto.gasgeven();
+        mijnauto.gasgeven();
+        mijnauto.gasgeven();
+        mijnauto.gasgeven();
+        mijnauto.gasgeven();
+        mijnauto.gasgeven();
+        mijnauto.gasgeven();
+        mijnauto.gasgeven();
+        mijnauto.toeteren();
+    </script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    background: white;
+    overflow: auto;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    font-family: Poppins, sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 20%;
+    font-size: 132px;
+    text-shadow: 2px 2px 6px black;
+    text-transform: uppercase;
+}
+
+a {
+    font-family: Poppins, sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 24px;
+    text-shadow: 2px 2px 3px black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover {
+    color: #EB3838;
+    transition: 0.3s ease-out;
+    text-decoration: underline;
+}
