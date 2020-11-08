@@ -24,6 +24,7 @@ h1 {
     padding-top: 20%;
     font-size: 132px;
     text-shadow: 2px 2px 6px black;
+    text-transform: uppercase;
 }
 
 a {
@@ -33,6 +34,7 @@ a {
     font-size: 24px;
     text-shadow: 2px 2px 3px black;
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 a:hover {
