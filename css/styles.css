@@ -24,6 +24,7 @@ h1 {
     padding-top: 2%;
     font-size: 132px;
     text-shadow: 2px 2px 6px black;
+    text-transform: uppercase;
 }
 
 h2 {
@@ -31,12 +32,13 @@ h2 {
     color: white;
     font-size: 28px;
     text-shadow: 2px 2px 4px black;
+    text-transform: uppercase;
 }
 
 a {
     font-family: Poppins, sans-serif;
     color: white;
-
+    text-transform: uppercase;
     font-weight: 400;
     font-size: 24px;
     text-shadow: 2px 2px 3px black;
