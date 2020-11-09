@@ -25,6 +25,7 @@ html {
     align-items: center;
     position: absolute;
     top: 20%;
+    transition: 0.5s ease-out;
 }
 
 .wrapper {
