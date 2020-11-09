@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Imageslider</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap" rel="stylesheet">
+</head>
+<body>
+<h1>Monkey Slideshow!</h1>
+<div class="wrapper">
+    <center>
+    <div id="slideholder"></div>
+    </center>
+    <script>
+        var plaatjes = [1,2,3,4,5,6,7,8,9];
+        var teller = 1;
+        var slideholder = document.getElementById("slideholder");
+        slideholder.style.backgroundImage = "url('img/monkey1.jpg')";
+
+        slideholder.addEventListener("click", function () {
+
+            slideholder.style.backgroundImage = "url('img/monkey"+ getMonkey() +".jpg')";
+        });
+
+        function getMonkey() {
+            if (teller >= plaatjes.length) {
+                teller = 0;
+            }
+            teller++;
+            console.log(teller);
+            return teller;
+        }
+    </script>
+</div>
+<center><a href="https://niels1325-javascript.netlify.app/">BACK</a></center>
+</body>
+</html>
