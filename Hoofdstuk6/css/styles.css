@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.center {
+    margin-left: 9rem;
+
+}
+
+.line1 {
+    width: 150px;
+    height: 150px;
+    margin-right: 2rem;
+    background-color: red;
+    border: 1px solid black;
+    margin-top: 10rem;
+}
+
+.line2 {
+    width: 150px;
+    height: 150px;
+    margin-right: 2rem;
+    background-color: red;
+    border: 1px solid black;
+    margin-top: 2rem;
+}
+
+.player1 {
+    width: 300px;
+    height: 75px;
+    position: absolute;
+    left: 0;
+    border: 1px solid black;
+    text-align: left;
+}
+
+.player2 {
+    width: 300px;
+    height: 75px;
+    position: absolute;
+    right: 0;
+    border: 1px solid black;
+    text-align: left;
+}
