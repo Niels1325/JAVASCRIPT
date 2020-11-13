@@ -3,134 +3,150 @@
     margin: 0;
     box-sizing: border-box;
     font-family: Poppins, sans-serif;
-    background-color: black;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    background: black;
+}
+
+img {
+    width: 100px;
+}
+
+.memory-game {
+    width: 800px;
+    height: 800px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    perspective: 1000px;
+}
+
+.memory-card {
+    width: calc(20% - 10px);
+    height: calc(25% - 10px);
+    margin: 5px;
+    position: relative;
+    transform: scale(1);
+    transform-style: preserve-3d;
+    transition: transform .5s;
+}
+
+.memory-card:active {
+    transform: scale(.97);
+    transition: transform .2s;
+}
+
+.memory-card.flip {
+    transform: rotateY(180deg);
+}
+
+.front-face, .back-face {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border: 2px solid white;
+    border-radius: 5px;
+    background: black;
+    backface-visibility: hidden;
+}
+
+.front-face {
+    transform: rotateY(-180deg);
+}
+
+div#players {
+    display: flex;
+    position: absolute;
+    font-weight: bold;
     color: white;
-    overflow-x: hidden;
+    width: 90%;
+    top: 100px;
+    left: 80px;
+    justify-content: space-between;
 }
 
-.wrapper1 {
+div.points {
     display: flex;
-    margin-top: 150px;
+    justify-content: center;
+    font-weight: bold;
+    align-items: center;
+    font-size: 1.5em;
+    color: white;
+    background: black;
+    padding: 20px;
+    border: solid 1px white;
 }
 
-.wrapper2 {
+.Scoreboard {
     display: flex;
+    position: absolute;
+    font-weight: bold;
+    width: 134px;
+    color: white;
+    top: 10px;
+    left: 80px;
+    font-size:20px;
+    justify-content: space-between;
+    background: black;
+    padding: 20px;
+    border: solid 1px white;
 }
 
-.center {
-    margin-left: 9rem;
-
+.Scoreboard2 {
+    display: flex;
+    position: absolute;
+    font-weight: bold;
+    width: 134px;
+    top: 10px;
+    left: 86.5%;
+    font-size:20px;
+    color: white;
+    justify-content: space-between;
+    background: black;
+    padding: 20px;
+    border: solid 1px white;
 }
 
-.line1 {
-    width: 150px;
-    height: 150px;
-    margin-right: 2rem;
-    margin-top: 10rem;
-}
-
-.line2 {
-    width: 150px;
-    height: 150px;
-    margin-right: 2rem;
-    margin-top: 2rem;
+.winner {
+    position: absolute;
+    left: 40%;
+    border: 1px white solid;
+    background: black;
+    color: white;
+    font-size: 2em;
+    padding: 20px;
+    visibility: hidden;
 }
 
 .turn {
     position: absolute;
-    width: 600px;
-    height: 50px;
-    top: 31px;
-    left: 740px;
-    font-size: 30px;
     font-weight: bold;
-}
-
-h1 {
-    position: absolute;
-    width: 600px;
-    height: 50px;
-    top: 3%;
-    left: 45%;
+    left: 43%;
+    border: 1px white solid;
+    background: black;
     color: white;
+    font-size: 20px;
+    padding: 10px;
 }
 
-h2 {
-    text-align: center;
-    padding-top: 20px;
-    font-weight: bold;
-    font-size: 32px;
-}
-
-.player1 {
-    width: 300px;
-    height: 75px;
-    position: absolute;
-    left: 0;
-    border: 2px solid white;
-    text-align: left;
-}
-
-.player2 {
-    width: 300px;
-    height: 75px;
-    position: absolute;
-    right: 0;
-    border: 2px solid white;
-    text-align: left;
-}
-
-#box {
-    border: 2px solid white;
-    border-radius: 5px;
-    position: absolute;
-    left: 235px;
-    top: 155px;
-    width: 150px;
-    height: 150px;
-}
-
-.box {
-    width: 150px;
-    height: 150px;
-    margin: 5px;
-    left: 12%;
-    position: relative;
-    border: 2px solid white;
-    border-radius: 5px;
-    background-image: url("../img/nellorecords.jpg");
-}
-
-.box:hover {
-    cursor: pointer;
-    box-shadow: 2px 2px 2px white;
-}
-
-.knop {
-    display: none;
-    width: 200px;
-    height: 50px;
-    background-color: black;
-    position: absolute;
-    top: 60%;
-    left: 44%;
-    border: 2px solid white;
-    border-radius: 5px;
-    transition: 0.3s ease-out;
-    text-align: center;
-}
-
-
-
-.knop:hover {
-    background-color: #2C2F33;
-    cursor: pointer;
-}
-
-p {
-    background: none;
+.Copyright a{
+    text-decoration: none;
+    font-size: 12px;
     font-family: Poppins, sans-serif;
-    font-weight: bold;
-    font-size: 24px;
-    margin-top: 10px;
+    position: fixed;
+    color: gray;
+    display: block;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.Copyright a:hover {
+    color: lightgray;
+    transition: 0.1s ease-in-out;
 }
