@@ -8,11 +8,12 @@ let player1pointscore = 0;
 let player2 = document.getElementById('player2points');
 let player2pointscore = 0;
 
-var turnCount = 0;
+var turnCount = 1;
 var winner = null;
 var playerturn = null;
 var thewinner = document.getElementById("thewinner");
-var turn = document.getElementById("turn");
+var theturn = document.getElementById("turn");
+turn();
 
 function flipCard() {
     if (lockBoard) return;
@@ -56,7 +57,6 @@ function unflipCards() {
 
         resetBoard();
     }, 500);
-
     turn();
 }
 
@@ -75,12 +75,13 @@ function resetBoard() {
 function turn() {
     turnCount++
     if (turnCount % 2) {
-        playerturn = "Player 2 is aan de beurt";
+        playerturn = "Player 2..";
     }
     else {
-        playerturn = "Player 2 is aan de beurt";
+        playerturn = "Player 1..";
     }
-    turn.innerHTML = playerturn;
+    theturn.innerHTML = playerturn;
+    console.log(turnCount);
 }
 
 function playerscore() {
@@ -96,7 +97,7 @@ function playerscore() {
 }
 
 function endgame() {
-    if (player1pointscore + player2pointscore < 10) {
+    if (player1pointscore + player2pointscore < 9) {
 
     } else {
         whowon();
@@ -106,10 +107,10 @@ function endgame() {
 
 function whowon() {
     if (player1pointscore > player2pointscore) {
-        winner = player1 + " won the game!";
+        winner = "Player 1 won the game!";
     }
     else if ((player1pointscore < player2pointscore)){
-        winner = player2 + " won the game!";
+        winner = "Player 2 won the game!";
     }
     else {
         winner = "Tied game";

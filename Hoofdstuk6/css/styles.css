@@ -32,10 +32,11 @@ img {
     transform: scale(1);
     transform-style: preserve-3d;
     transition: transform .5s;
+
 }
 
 .memory-card:active {
-    transform: scale(.97);
+    transform: scale(.99);
     transition: transform .2s;
 }
 
@@ -80,38 +81,11 @@ div.points {
     border: solid 1px white;
 }
 
-.Scoreboard {
-    display: flex;
-    position: absolute;
-    font-weight: bold;
-    width: 134px;
-    color: white;
-    top: 10px;
-    left: 80px;
-    font-size:20px;
-    justify-content: space-between;
-    background: black;
-    padding: 20px;
-    border: solid 1px white;
-}
-
-.Scoreboard2 {
-    display: flex;
-    position: absolute;
-    font-weight: bold;
-    width: 134px;
-    top: 10px;
-    left: 86.5%;
-    font-size:20px;
-    color: white;
-    justify-content: space-between;
-    background: black;
-    padding: 20px;
-    border: solid 1px white;
-}
-
 .winner {
+    width: 400px;
+    height: 100px;
     position: absolute;
+    top: 30%;
     left: 40%;
     border: 1px white solid;
     background: black;
@@ -119,17 +93,21 @@ div.points {
     font-size: 2em;
     padding: 20px;
     visibility: hidden;
+    text-align: center;
 }
 
 .turn {
     position: absolute;
     font-weight: bold;
-    left: 43%;
+    left: 40%;
     border: 1px white solid;
     background: black;
     color: white;
     font-size: 20px;
     padding: 10px;
+    width: 400px;
+    height: 50px;
+    text-align: center;
 }
 
 .Copyright a{

@@ -19,12 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f9df3e9-d0a5-4dea-804a-13e0e2b7a54e" name="Default Changelist" comment="added Hoofdstuk 2">
-      <change afterPath="$PROJECT_DIR$/Hoofdstuk3/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hoofdstuk3/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hoofdstuk3/monkeyshuffle.js" afterDir="false" />
+    <list default="true" id="6f9df3e9-d0a5-4dea-804a-13e0e2b7a54e" name="Default Changelist" comment="Almost fixed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoofdstuk6/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Hoofdstuk6/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoofdstuk6/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Hoofdstuk6/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoofdstuk6/memorygame.js" beforeDir="false" afterPath="$PROJECT_DIR$/Hoofdstuk6/memorygame.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,8 +37,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -56,20 +55,32 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Hoofdstuk1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\NeLLo\PhpstormProjects\javascript\Hoofdstuk1" />
-      <recent name="C:\Users\NeLLo\PhpstormProjects\javascript\Hoofdstuk1\Hoofdstuk1_3" />
-      <recent name="C:\Users\NeLLo\PhpstormProjects\javascript\Hoofdstuk1\Hoofdstuk1_2" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\NeLLo\PhpstormProjects\javascript\Hoofdstuk2\Hoofdstuk2_1" />
       <recent name="C:\Users\NeLLo\PhpstormProjects\javascript\Hoofdstuk1" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\NeLLo\PhpstormProjects\javascript\Hoofdstuk5" />
+      <recent name="C:\Users\NeLLo\PhpstormProjects\javascript\Hoofdstuk4\Hoofdstuk4_3" />
+      <recent name="C:\Users\NeLLo\PhpstormProjects\javascript\Hoofdstuk1" />
+      <recent name="C:\Users\NeLLo\PhpstormProjects\javascript\Hoofdstuk1\Hoofdstuk1_3" />
+      <recent name="C:\Users\NeLLo\PhpstormProjects\javascript\Hoofdstuk1\Hoofdstuk1_2" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="page34.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/javascript/Hoofdstuk6/page34.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.page34.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -79,7 +90,28 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604836587255</updated>
-      <workItem from="1604836599337" duration="10023000" />
+      <workItem from="1604836599337" duration="10557000" />
+      <workItem from="1604851765318" duration="2464000" />
+      <workItem from="1604899113379" duration="12610000" />
+      <workItem from="1604924661335" duration="1685000" />
+      <workItem from="1605017998774" duration="25000" />
+      <workItem from="1605018602726" duration="133000" />
+      <workItem from="1605045124821" duration="19000" />
+      <workItem from="1605092826306" duration="7288000" />
+      <workItem from="1605178431599" duration="1064000" />
+      <workItem from="1605198637041" duration="14000" />
+      <workItem from="1605255781400" duration="5215000" />
+      <workItem from="1605275060870" duration="801000" />
+      <workItem from="1605281291594" duration="7479000" />
+      <workItem from="1605395191600" duration="2000" />
+      <workItem from="1605612346530" duration="219000" />
+      <workItem from="1605616810897" duration="290000" />
+      <workItem from="1605620429451" duration="3187000" />
+      <workItem from="1606062557606" duration="36000" />
+      <workItem from="1606074304013" duration="20000" />
+      <workItem from="1606144921206" duration="4149000" />
+      <workItem from="1606167286831" duration="1000" />
+      <workItem from="1606213072504" duration="40000" />
     </task>
     <task id="LOCAL-00001" summary="Hoofdstuk 1 javascript af">
       <created>1604838454695</created>
@@ -165,7 +197,133 @@
       <option name="project" value="LOCAL" />
       <updated>1604842690324</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Hoofdstuk 3 af">
+      <created>1604847241411</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1604847241411</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Added Hoofdstuk 3">
+      <created>1604847263042</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1604847263042</updated>
+    </task>
+    <task id="LOCAL-00015" summary="monkey added">
+      <created>1604847300466</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1604847300466</updated>
+    </task>
+    <task id="LOCAL-00016" summary="added hoofdstuk 4">
+      <created>1604852864066</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1604852864066</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Hoofdstuk 4.1 af">
+      <created>1604852886519</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1604852886519</updated>
+    </task>
+    <task id="LOCAL-00018" summary="fixed a number">
+      <created>1604852924756</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1604852924756</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Hoofdstuk 4.2 af">
+      <created>1604901868408</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1604901868408</updated>
+    </task>
+    <task id="LOCAL-00020" summary="fixed some code">
+      <created>1604902011831</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1604902011831</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Hoofdstuk 4.3 af">
+      <created>1604904031174</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1604904031174</updated>
+    </task>
+    <task id="LOCAL-00022" summary="fixed transition">
+      <created>1604904078910</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1604904078910</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Hoofdstuk 5 af">
+      <created>1604908383500</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1604908383500</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Hoofdstuk 5 added">
+      <created>1604908404596</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1604908404596</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Hoofdstuk 5 added">
+      <created>1604908443546</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1604908443546</updated>
+    </task>
+    <task id="LOCAL-00026" summary="fixed css">
+      <created>1604908479143</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1604908479143</updated>
+    </task>
+    <task id="LOCAL-00027" summary="fixed css">
+      <created>1604913563633</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1604913563633</updated>
+    </task>
+    <task id="LOCAL-00028" summary="begin hoofdstuk 6">
+      <created>1604920312996</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1604920312996</updated>
+    </task>
+    <task id="LOCAL-00029" summary="het werkt niet">
+      <created>1605261027568</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1605261027568</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Almost fixed">
+      <created>1605290529436</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1605290529436</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,6 +339,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Hoofdstuk 1 javascript af" />
@@ -189,16 +348,45 @@
     <MESSAGE value="uppercased everything" />
     <MESSAGE value="Hoofdstuk 2 af" />
     <MESSAGE value="added Hoofdstuk 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Hoofdstuk 2" />
+    <MESSAGE value="Hoofdstuk 3 af" />
+    <MESSAGE value="Added Hoofdstuk 3" />
+    <MESSAGE value="monkey added" />
+    <MESSAGE value="added hoofdstuk 4" />
+    <MESSAGE value="Hoofdstuk 4.1 af" />
+    <MESSAGE value="fixed a number" />
+    <MESSAGE value="Hoofdstuk 4.2 af" />
+    <MESSAGE value="fixed some code" />
+    <MESSAGE value="Hoofdstuk 4.3 af" />
+    <MESSAGE value="fixed transition" />
+    <MESSAGE value="Hoofdstuk 5 af" />
+    <MESSAGE value="Hoofdstuk 5 added" />
+    <MESSAGE value="fixed css" />
+    <MESSAGE value="begin hoofdstuk 6" />
+    <MESSAGE value="het werkt niet" />
+    <MESSAGE value="Almost fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Almost fixed" />
   </component>
   <component name="WindowStateProjectService">
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604838228742">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604838228742" />
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1604842691060">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1606074322667">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604842691060" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606074322667" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605018021276" />
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1605290530572">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605290530572" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1605282096714">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605282096714" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1605287741933">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605287741933" />
   </component>
 </project>
