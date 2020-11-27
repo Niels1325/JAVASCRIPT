@@ -1,22 +1,23 @@
 const cards = document.querySelectorAll('.memory-card');
 
-let hasFlippedCard = false;
-let lockBoard = false;
-let firstCard, secondCard;
-let player1 = document.getElementById('player1points');
-let player1pointscore = 0;
-let player2 = document.getElementById('player2points');
-let player2pointscore = 0;
-
 var turnCount = 1;
 var winner = null;
-var playerturn = null;
-var thewinner = document.getElementById("thewinner");
-var theturn = document.getElementById("turn");
+var playerTurn = null;
+var theWinner = document.getElementById("thewinner");
+var theTurn = document.getElementById("turn");
 turn();
 
+let hasFlippedCard = false;
+let freezeBoard = false;
+let firstCard, secondCard;
+let player1 = document.getElementById('player1points');
+let player1score = 0;
+let player2 = document.getElementById('player2points');
+let player2score = 0;
+
+
 function flipCard() {
-    if (lockBoard) return;
+    if (freezeBoard) return;
     if (this === firstCard) return;
 
     this.classList.add('flip');
@@ -29,27 +30,27 @@ function flipCard() {
     }
 
     secondCard = this;
-    checkForMatch();
+    checkIfDuplicate();
 }
 
-function checkForMatch() {
+function checkIfDuplicate() {
     let isMatch
     if ( isMatch = firstCard.dataset.framework === secondCard.dataset.framework) {
-        playerscore();
+        score();
     }
 
-    isMatch ? disableCards() : unflipCards();
+    isMatch ? turnBackCards() : unFlipCards();
 }
 
-function disableCards() {
+function turnBackCards() {
     firstCard.removeEventListener('click', flipCard);
     secondCard.removeEventListener('click', flipCard);
 
     resetBoard();
 }
 
-function unflipCards() {
-    lockBoard = true;
+function unFlipCards() {
+    freezeBoard = true;
 
     setTimeout(() => {
         firstCard.classList.remove('flip');
@@ -61,11 +62,11 @@ function unflipCards() {
 }
 
 function resetBoard() {
-    [hasFlippedCard, lockBoard] = [false, false];
+    [hasFlippedCard, freezeBoard] = [false, false];
     [firstCard, secondCard] = [null, null];
 }
 
-(function shuffle() {
+(function random() {
     cards.forEach(card => {
         let randomPos = Math.floor(Math.random() * 12);
         card.style.order = randomPos;
@@ -75,50 +76,50 @@ function resetBoard() {
 function turn() {
     turnCount++
     if (turnCount % 2) {
-        playerturn = "Player 2..";
+        playerTurn = "Player 2..";
     }
     else {
-        playerturn = "Player 1..";
+        playerTurn = "Player 1..";
     }
-    theturn.innerHTML = playerturn;
+    theTurn.innerHTML = playerTurn;
     console.log(turnCount);
 }
 
-function playerscore() {
+function score() {
     if (turnCount % 2) {
-        player2pointscore +=1;
-        player2.innerHTML = player2pointscore;
+        player2score +=1;
+        player2.innerHTML = player2score;
     }
     else  {
-        player1pointscore +=1;
-        player1.innerHTML = player1pointscore;
+        player1score +=1;
+        player1.innerHTML = player1score;
     }
-    endgame();
+    endGame();
 }
 
-function endgame() {
-    if (player1pointscore + player2pointscore < 9) {
+function endGame() {
+    if (player1score + player2score < 9) {
 
     } else {
-        whowon();
+        whoWon();
     }
 
 }
 
-function whowon() {
-    if (player1pointscore > player2pointscore) {
+function whoWon() {
+    if (player1score > player2score) {
         winner = "Player 1 won the game!";
     }
-    else if ((player1pointscore < player2pointscore)){
+    else if ((player1score < player2score)){
         winner = "Player 2 won the game!";
     }
     else {
         winner = "Tied game";
     }
     console.log(winner);
-    thewinner.innerHTML = winner;
-    thewinner.style.visibility = 'visible'
-    turn.style.visibility = 'hidden'
+    theWinner.innerHTML = winner;
+    theWinner.style.visibility = 'visible'
+    theTurn.style.visibility = 'hidden'
 }
 
 cards.forEach(card => card.addEventListener('click', flipCard));
