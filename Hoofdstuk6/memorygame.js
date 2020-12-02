@@ -7,13 +7,13 @@ var theWinner = document.getElementById("thewinner");
 var theTurn = document.getElementById("turn");
 turn();
 
-let hasFlippedCard = false;
-let freezeBoard = false;
-let firstCard, secondCard;
-let player1 = document.getElementById('player1points');
-let player1score = 0;
-let player2 = document.getElementById('player2points');
-let player2score = 0;
+var hasFlippedCard = false;
+var freezeBoard = false;
+var firstCard, secondCard;
+var player1 = document.getElementById('player1points');
+var player1score = 0;
+var player2 = document.getElementById('player2points');
+var player2score = 0;
 
 
 function flipCard() {
